@@ -1,0 +1,192 @@
+
+.one span{
+    font-size: 40px;
+    margin-left:30% ;
+    color: rgb(255, 200, 0);
+    border-bottom: 5px solid rgb(53, 211, 239)  ;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(71, 232, 235);
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    margin:20px auto;
+}
+.container{
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #4ed2fe ,#025692);
+    text-align: center;
+}
+.icon-social{
+    position: absolute;
+    display:flex ;
+    flex-direction: column;
+}
+/* .icon-social i{
+    font-size: 20px;
+    padding: 15px;
+    margin: 10px 0 0 10px;
+    background-color: white;
+    border-radius: 50px;
+    color: rgb(55, 97, 236);
+} */
+.icon-social a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    margin: 10px 0 0 10px;
+    background-color: white;
+    border-radius: 50px;
+    color: rgb(55, 97, 236);
+    transition: transform 0.2s ease-in-out;
+}
+.icon-social a:hover{
+    color: #e00606;
+    background-color: rgb(232, 215, 172);
+    transform: scale(1.2);
+
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+    font-family: sans-serif
+}
+.info i{
+ 
+    padding-right: 10px;
+}
+.container img.active{
+    width: 400px;
+    height: 400px;
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+.arrow{
+    color: red;
+    font-size: 30px;
+    padding-top: 30px;
+    margin: auto;
+}
+.container button{
+    width: 100px;
+    height: 30px;
+    border: 2px  solid  rgb(71, 232, 235);
+    border-radius: 7px;
+    background-color: rgb(217, 229, 230);
+}
+/* nút */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  /* Style cho nội dung của modal */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* Style cho nút đóng của modal */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modal p{
+    color: #000;
+    
+  }
+  /* nút */
+.modal1 {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  /* Style cho nội dung của modal */
+  .modal-content1 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* Style cho nút đóng của modal */
+  .close1 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close1:hover,
+  .close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modal1 p{
+    color: #000;
+    
+  }
+  .contact{
+    background-color: #06e077;
+  }
+  .contact input[type="text"]
+{
+    margin-bottom: 30px;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+}
+.contact input:nth-child(3){
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+}
+.contact input:nth-child(4){
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 5px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Icon/fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Giới thiệu</title>
+</head>
+<body>
+    <div class="one">
+        <span>PROFILE </span>
+    </div>
+    <div class="container">
+        <div class="icon-social">
+            <a href="https://www.facebook.com/profile.php?id=100026999708221" target="_blank">FB</a>
+            <a href="/index1.html">IG</a>
+            <a href="https://www.youtube.com/watch?v=YudHcBIxlYw&ab_channel=BLACKPINK" target="_blank">TW</i></a>
+        </div>
+        <img src="img.jpg" alt="">
+        <h2>Nguyễn Văn Phương</h2>
+         <div class="info">
+            <p><i class="fa-solid fa-location-dot"></i>Quê quán:Chí Linh Hải Dương</p>
+            <p><i class="fa-solid fa-baby"></i>Năm Sinh:06/05/2003</p>
+            <p><i class="fa-solid fa-heart"></i>Sở thích:Tiền và rất nhiều tiền</p>
+            <p><i class="fa-solid fa-user"></i>Nghề nghiệp :Thất nghiệp</p>
+         </div>
+         <div class="info">
+         <button id="myButton">Liên hệ</button>
+
+         <div id="myModal" class="modal">
+           <div class="modal-content">
+             <span class="close">&times;</span>
+             <p>sđt:0352827813
+                zalo:số điện thoại kìa
+             </p>
+           </div>
+        </div>
+         <div class="arrow">
+            <i class="fa-solid fa-arrow-down"></i>
+        </div>
+    </div>
+    <div class="contact">
+      <form action=""><p>Lời nhắn</p>
+        <input type="text" placeholder="nhắn....">
+        <input type="submit" value="Gửi"><input type="reset" value="Huỷ"></form>
+        
+
+
+     </div>
+
+    <script>
+        const imgB =document.querySelector('.container img')
+        imgB.addEventListener("click",function(){
+            this.classList.toggle("active")
+        })
+            // Lấy button và modal
+var myButton = document.getElementById("myButton");
+var modal = document.getElementById("myModal");
+
+// Lấy nút đóng
+var span = document.getElementsByClassName("close")[0];
+
+// Khi người dùng nhấp vào nút, hiển thị modal
+myButton.onclick = function() {
+  modal.style.display = "block";
+}
+
+// Khi người dùng nhấp vào nút đóng, ẩn modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// Khi người dùng nhấp bất kỳ đâu ngoài modal, ẩn modal
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+    </script>
+</body>
+</html>
+<!-- <i class="fa-brands fa-facebook"></i> -->
+<!-- <i class="fa-brands fa-instagram"></i> -->
+<!-- <i class="fa-brands fa-square-twitter"></i> -->
